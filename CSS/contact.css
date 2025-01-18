@@ -41,6 +41,7 @@ nav ul li a {
 
 .inp,
 .msg {
+  font-family: Arial, sans-serif;
   width: 100%;
   padding: 10px;
   margin-bottom: 10px;
