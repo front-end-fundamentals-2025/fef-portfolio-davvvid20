@@ -1,21 +1,24 @@
 body {
   font-family: Arial, sans-serif;
-  background-color: #c2f2d1;
+  background-image: url("img/background.jpg");
+  background-size: cover;
+  background-position: center;
+  background-attachment: fixed;
 }
 
 header {
-  background-color: #47795a;
-  color: white;
+  background-color: rgba(71, 121, 90, 0.8); /* 半透明背景 */
   padding: 10px;
   text-align: center;
+  border-radius: 10px; /* 圆角效果 */
 }
 
 section {
   margin: 20px;
-  padding: 10px;
-  background-color: white;
+  padding: 20px;
+  background-color: rgba(180, 180, 180, 0.352); /* 半透明白色背景 */
   border: 1px solid #ddd;
-  border-radius: 5px;
+  border-radius: 15px; /* 圆角效果 */
 }
 
 h2 {
@@ -31,14 +34,11 @@ li {
   margin-bottom: 5px;
 }
 
-address {
-  font-style: normal;
-}
-
-img {
-  max-width: 10%;
-  height: auto;
+.profile {
+  width: 150px;
+  height: 150px;
   display: block;
   margin-left: auto;
   margin-right: auto;
+  border-radius: 50%;
 }
