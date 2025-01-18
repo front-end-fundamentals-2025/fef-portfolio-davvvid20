@@ -1,11 +1,15 @@
 body {
   font-family: Arial, sans-serif;
-  background-color: #c2f2d1;
+  background-image: url(img/background1.png);
+  background-size: cover;
+  background-position: center top;
+  background-attachment: fixed;
 }
-
 header {
-  background-color: #47795a;
-  color: white;
-  padding: 10px;
+  background-color: rgba(71, 121, 90, 0.8);
+  margin: 20px;
+  padding: 20px;
   text-align: center;
+  color: white;
+  border-radius: 10px;
 }
