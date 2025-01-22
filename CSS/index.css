@@ -1,13 +1,13 @@
 body {
   font-family: Arial, sans-serif;
-  /* background-image: url("img/background.jpg");
+  background-image: url("background1.png");
   background-size: cover;
   background-position: center top;
-  background-attachment: fixed; */
+  background-attachment: fixed;
 }
 
 header {
-  background-color: rgba(71, 121, 90, 0.8);
+  background-color: rgba(57, 91, 120, 0.8);
   margin: 20px;
   padding: 20px;
   text-align: center;
