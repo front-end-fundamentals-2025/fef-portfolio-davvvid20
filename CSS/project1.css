@@ -31,3 +31,25 @@ nav ul li a {
   text-decoration: none;
   font-weight: bold;
 }
+main {
+  padding: 20px;
+}
+
+.project-w1 {
+  max-width: 800px;
+  margin: 0 auto;
+  text-align: center;
+}
+
+.project-w1image {
+  width: 100%;
+  height: auto;
+  border-radius: 10px;
+  margin-bottom: 20px;
+}
+
+.project-w1 p {
+  font-size: 18px;
+  line-height: 1.6;
+  color: white;
+}
