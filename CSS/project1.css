@@ -31,28 +31,3 @@ nav ul li a {
   text-decoration: none;
   font-weight: bold;
 }
-
-.work-gallery {
-  display: grid;
-  grid-template-columns: repeat(auto-fit, minmax(250px, 1fr));
-  gap: 15px;
-  padding: 20px;
-  max-width: 1000px;
-  width: 90%;
-
-  margin: 0 auto;
-  justify-content: center;
-}
-
-.work-gallery img {
-  width: 100%;
-  height: auto;
-  border-radius: 8px;
-  transition: transform 0.3s ease, box-shadow 0.3s ease;
-  box-shadow: 0 2px 5px rgba(0, 0, 0, 0.2);
-}
-
-.work-gallery img:hover {
-  transform: scale(1.05);
-  box-shadow: 0 4px 10px rgba(0, 0, 0, 0.3);
-}
