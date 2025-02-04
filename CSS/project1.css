@@ -63,4 +63,6 @@ main {
   font-size: 18px;
   line-height: 1.6;
   color: white;
+  background-color: rgba(57, 91, 120, 0.8);
+  border-radius: 10px;
 }
